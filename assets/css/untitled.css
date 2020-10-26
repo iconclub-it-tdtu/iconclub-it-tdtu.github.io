@@ -1,0 +1,95 @@
+.features-icons {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+
+.features-icons-item {
+  max-width: 20rem;
+}
+
+.features-icons-icon {
+  height: 7rem;
+}
+
+.icon, .fa-water, .fa-wind {
+  font-size: 4.5rem;
+}
+
+svg {
+  font-size: 24px;
+  color: black;
+}
+
+.bgimg-1 {
+  background-image: url('../../assets/img/header-bg.jpg');
+  min-height: 100%;
+  position: relative;
+  opacity: 0.9;
+  background-attachment: fixed;
+}
+
+.content-section-heading h3 {
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.text-secondary {
+  color: #ecb807!important;
+}
+
+.hover {
+  overflow: hidden;
+  position: relative;
+  padding-bottom: 60%;
+}
+
+.hover-overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 90;
+  transition: all 0.4s;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.hover img {
+  width: 105%;
+  position: absolute;
+  top: 0;
+  left: -5%;
+  transition: all 0.3s;
+}
+
+.hover-content {
+  position: absolute;
+  z-index: 99;
+  bottom: 0;
+  left: 0;
+  transition: all 0.4s;
+}
+
+.hover-description {
+  transform: translateY(0.5rem);
+  transition: all 0.4s;
+  opacity: 0;
+}
+
+.hover:hover .hover-content {
+  bottom: 2rem;
+}
+
+.hover:hover .hover-description {
+  opacity: 1;
+  transform: none;
+}
+
+.hover:hover img {
+  left: 0;
+}
+
+.hover:hover .hover-overlay {
+  opacity: 0.8;
+}
+
